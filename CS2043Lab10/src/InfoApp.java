@@ -9,6 +9,9 @@ public class InfoApp {
 
 		InfoPrintJones wow = new InfoPrintJones();
 		wow.printJones();
+
+		InfoPrintElrobey elrobey = new InfoPrintElrobey();
+		elrobey.printElrobey();
 	}
 	
 }
