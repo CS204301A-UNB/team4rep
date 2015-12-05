@@ -12,6 +12,9 @@ public class InfoApp {
 
 		InfoPrintElrobey elrobey = new InfoPrintElrobey();
 		elrobey.printElrobey();
+		
+		InfoPrintHryniowski hryniowski = new InfoPrintHryniowski();
+		hryniowski.printHryniowski();
 	}
 	
 }
