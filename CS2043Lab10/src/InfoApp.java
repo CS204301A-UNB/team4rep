@@ -6,15 +6,21 @@ public class InfoApp {
 		System.out.println("Team 4 member list: ");
 
 
-		
 		print1.printSteen();
+
+		InfoPrintMacDougall thomas = new InfoPrintMacDougall();
+		thomas.printMacDougall();
+
 
 		InfoPrintJones wow = new InfoPrintJones();
 		wow.printJones();
 
 
-		InfoPrintMacDougall thomas = new InfoPrintMacDougall();
-		thomas.printMacDougall();
+		InfoPrintElrobey elrobey = new InfoPrintElrobey();
+		elrobey.printElrobey();
+		
+		InfoPrintHryniowski hryniowski = new InfoPrintHryniowski();
+		hryniowski.printHryniowski();
 
 	}
 	
